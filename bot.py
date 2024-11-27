@@ -35,7 +35,7 @@ def start(message):
             referral_data = referral_response.json()
             referral_count = referral_data.get('referral_count', 0)
 
-            if referral_count >= 1:
+            if referral_count >= 20:
                 markup = InlineKeyboardMarkup()
                 channel_markup = InlineKeyboardMarkup()
                 button = types.InlineKeyboardButton(text="Guruhga qo'shilish", url="https://t.me/+1lvkRjiuQilkYzM6")
