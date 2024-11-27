@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram Bot Service
+After=network.target
+
+[Service]
+User=aizen
+WorkingDirectory=/home/projects/hibot
+ExecStart=/home/projects/hibot/venv/bin/python /home/projects/hibot/bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

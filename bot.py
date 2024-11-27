@@ -4,7 +4,7 @@ from telebot import types
 from telebot.types import InlineKeyboardButton,InlineKeyboardMarkup
 
 bot = telebot.TeleBot("7565834235:AAErYbmri3B2YhdA4rHWCqVwxdPA59sV6kk")
-API_URL = 'http://127.0.0.1:8000/api'  # Django API endpoint
+API_URL = 'https://shrustamovna.uz/api'  # Django API endpoint
 
 user_registration_state = {}
 user_payment_requests = {}
